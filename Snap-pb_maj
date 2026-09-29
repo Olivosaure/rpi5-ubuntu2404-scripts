@@ -1,0 +1,7 @@
+### Réglages du pb de mise à jour du snap store ###
+# On s'arraure qu'aucun pid processeur n'utilise actuellement le snap store
+sudo snap-store --quit
+sudo killall snap-store
+
+# On met à jour le snap store
+sudo snap refresh snap-store
