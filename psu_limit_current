@@ -1,0 +1,4 @@
+# On édite le fichier rpi-eeprom-config
+sudo rpi-eeprom-config --edit
+
+# Ajoutez la ligne "PSU_MAX_CURRENT=5000" à la fin du fichier
