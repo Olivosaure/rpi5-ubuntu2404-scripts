@@ -7,4 +7,5 @@
 
 # sudo swapon --priority 10 /swapfile
 
+# sudo swapon --show
 
