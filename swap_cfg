@@ -9,3 +9,5 @@
 
 # sudo swapon --show
 
+# Dans le fichier fstab, il faut ajouter la ligne suivante. Le swap n'as pas d'UUID quand il est un fichier et pas une partition donc la ligne est la suivante pour un fichier /swapfile
+/swapfile none swap sw,pri=14 0 0
