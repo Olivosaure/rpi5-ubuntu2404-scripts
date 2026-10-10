@@ -1,0 +1,14 @@
+# Désactiver l'extension Ding de Nautilus qui a un bug (fige ubuntu 24.04 au bout d'un certain temps d'utilisation). 
+gnome-extensions disable ding@rastersoft.com
+
+# Vérifier que l'extension est bien désactivée (1ère vérif)
+gnome-extensions show ding@rastersoft.com
+
+# Liste des extensions désactivées (2ème vérif)
+gnome-extensions list --disabled
+
+# Liste des extensions activées 
+gnome-extensions list --enabled
+
+
+# Pour info, il existe des alternatives à Nautilus comme Nemo
