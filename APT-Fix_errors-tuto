@@ -1,0 +1,7 @@
+# Si erreur de sudo apt update
+
+# Chercher le fichier mis en cause en erreur
+grep -r "nom_du_fichier' /etc/apt/sources.list.d/ /etc/apt/sources.list
+
+# supprimer le fichier si non nécessaire
+sudo rm /etc/apt/sources.list.ld/nom_du_fichier
